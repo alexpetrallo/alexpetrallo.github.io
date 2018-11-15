@@ -1,0 +1,305 @@
+.header{
+    text-align: center;
+    /* font-display: Helvetica; */
+
+}
+#body{
+    background-color: darkgrey;
+}
+.container{
+    width: 80%;
+    /* background-color: #F5F5F5; */
+    text-align: center;
+    display: flex;
+    /* overflow: auto; */
+    height: 100vh;
+    margin-top: 20px;
+
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#img{
+    padding: 20px;
+    /* background: url('https://images.unsplash.com/reserve/ZF75d1lhQ0SyLWYEGOqO_21_forest_mountains.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf0f77912fa85c3d4c111540fb1b753c&auto=format&fit=crop&w=2110&q=80') ; */
+    /* background-image: url("lab7/skatingPic.jpg")  ; */
+    background-image: url("https://images.pexels.com/photos/25573/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 1024px;
+    width: 100%;
+    float: left;
+    /* display: inline-block; */
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size:100%;
+    margin: auto;
+
+
+}
+#front-page-text{
+
+    padding-top: 20vh;
+    width: 50%;
+}
+#circle-pic{
+    /* background-image: url("https://kottke.org/plus/misc/images/art-institute-chi-03.jpg"); */
+    background-image: url("imgs/face3.jpg");
+    width: 175px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid #000;
+    /* display: inline-block;    */
+    /* margin: 20px;  */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px black;
+    background-size:contain;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    text-align: center;
+    /* animation: up-bump 0.4s ease; */
+    float: left;
+
+
+
+}
+#about-paragraph{
+    float:left;
+}
+.text-box{
+    width: 75%;
+
+    text-align: center;
+    /* display: inline-block; */
+    float: left;
+    /* margin-left: 15%; */
+    border: 2px solid #000;
+    /* background: lightgray;  */
+    /* opacity: 0.5;
+    filter: alpha(opacity=50);  */
+    padding-top: 10px;
+    color: black;
+    /* border-radius: 7%; */
+    box-shadow: 0 0 10px black;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: top; */
+    background: rgba(0,0,0,.3);
+}
+.text-box3{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 20%;
+    text-align: center;
+    float: left;
+    border: 2px solid #000;
+    /* padding-top: 20px; */
+    color: black;
+    box-shadow: 0 0 10px black;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 20px; */
+    background: rgba(0,0,0,.3);
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    /* float: left; */
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+.box-header{
+    flex:left;
+    color: antiquewhite;
+}
+.box-text{
+    flex:left;
+    color: antiquewhite;
+    height: 60vh;
+    display:inline-block;
+    text-align:center;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    width: 100%;
+    padding: 20px;
+    /* padding: 20px; */
+    /* height: 80vh: */
+    /* Youll have to do the location thingy like in lab6
+    do that for th ehader in a smaller div will padding auto maybe
+     */
+}
+.albums{
+    height:75px;
+    width: 75px;
+    padding-top: 5px;
+}
+#book-box{
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    margin: auto;
+    width: 280px;
+    padding-top: 20px;
+    
+}
+.books{
+    
+    height: 100px;
+    width: 60px;
+    padding-top: 5px;
+
+}
+.books:hover{
+    transform: scale(1.1);
+} 
+.albums:hover{
+    transform: scale(1.1);
+} 
+.secondary-box{
+    /* display: block; */
+    width: 300px;
+    height: 50vh;
+    /* text-align: center; */
+    /* float: left; */
+    border: 2px solid #000;
+    background: lightgray; 
+    background: rgba(0,0,0,.3);
+    /* opacity: .5;
+    filter: alpha(opacity=50);  */
+    /* padding-top: 20px; */
+    /* margin: auto; */
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+    display: inline-flex;
+    flex-direction: column;
+    /* text-align:center; */
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+#video-container{
+    width: 80%;
+    height: 40%;
+}
+.secondary-box3{
+    width: 350px;
+    text-align:center;
+    height: 70vh;
+    /* height: fit-content; */
+    /* that was good for sizing down to the stuff inside */
+    /* height: 100%; */
+    border: 2px solid #000;
+    background: lightgray; 
+    background: rgba(0,0,0,.3);
+    margin: auto;
+    box-shadow: 0 0 10px black;
+    display: inline-flex;
+    flex-direction: column;
+    padding:20px;
+    /* flex-wrap: wrap-reverse; */
+    
+
+}
+
+#second-screen{
+    /* background-image: url("https://images.pexels.com/photos/25573/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image: url("imgs/rev-gradient.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    /* position: relative; */
+    /* height: 100%; */
+    max-width: 100%;
+    /* max-height: 100%; */
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding: 20px;
+
+}
+#third-screen{
+    /* background-image: url("https://images.pexels.com/photos/25573/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image: url("imgs/gradient.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    /* position: relative; */
+    /* height: 100%; */
+    max-width: 100%;
+    /* max-height: 100%; */
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+/* #third-screen{
+    background-image: url("https:/d/www.artic.edu/iiif/2/982ba820-bbd7-8751-920e-9f411580c002/full/3000,/0/default.jpg");
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    
+    text-align: center;
+    position: relative;
+    /* height: 100%; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* background-repeat:no-repeat; 
+    background-size:contain;
+
+    padding: auto;
+} */
+/* #resumeScreen{
+
+} */
+
+.bottom{
+    background-color: darkslategray;
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    /* display: inline-block; */
+    text-align: center;
+}
+#text{
+    color: white;
+    
+}
+.svg{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+/* .slider {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    background-color: #000; color: #FFF;
+    transition: all 1s;
+  }
+  
+  .slider.close {
+    top: 100vh;
+    height: 0;
+  } */
