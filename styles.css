@@ -47,7 +47,8 @@
 }
 #circle-pic{
     /* background-image: url("https://kottke.org/plus/misc/images/art-institute-chi-03.jpg"); */
-    background-image: url("imgs/face3.jpg");
+    background-image: url("imgs/face2.jpg");
+    background-size: cover;
     width: 175px;
     height: 200px;
     border-radius: 20%;
@@ -58,7 +59,7 @@
     margin-bottom: 20px;
     margin-right: 20px;
     box-shadow: 0 0 10px black;
-    background-size:contain;
+    /* background-size:contain; */
     overflow: hidden;
     background-repeat:no-repeat;
     text-align: center;
@@ -109,6 +110,15 @@
     background: rgba(0,0,0,.3);
     
 }
+#vss_img{
+
+    background-image: url("vss_logo.png");
+    background-size: cover;
+    margin:auto;
+    height: 50%;
+    width: 80%;
+}
+ 
 .flex-container{
     display: flex;
     justify-content: center;
@@ -174,7 +184,7 @@
     /* display: block; */
     width: 300px;
     height: 50vh;
-    /* text-align: center; */
+    text-align: center;
     /* float: left; */
     border: 2px solid #000;
     background: lightgray; 
