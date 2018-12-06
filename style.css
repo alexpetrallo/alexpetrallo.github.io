@@ -1,0 +1,107 @@
+.navbar-opacity{
+    background: rgba(255, 255, 255, 0.0) !important;
+    
+}
+.navbar-alt{
+    background: rgba(255, 255, 255, 1) !important;
+}
+#img{
+    background-image: url('https://images.unsplash.com/reserve/ZF75d1lhQ0SyLWYEGOqO_21_forest_mountains.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf0f77912fa85c3d4c111540fb1b753c&auto=format&fit=crop&w=2110&q=80') ;
+    height: 100vh !important;
+    background-attachment: fixed;
+
+}
+.grow:hover {
+    transform: scale(1.5);
+}
+.card{
+    border: none !important;
+}
+
+.opacity{
+    border: 2px solid #000;
+    background: rgba(255,255,255,.5) !important;
+
+}
+.svg{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+.bottom{
+    
+    background-color: darkslategray;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    /* display: inline-block; */
+    text-align: center;
+}
+#text{
+    color: whitesmoke;
+}
+.books{
+    
+    height: 160px;
+    width: 100px;
+    padding-top: 5px;
+
+}
+#circle-pic{
+    /* background-image: url("https://kottke.org/plus/misc/images/art-institute-chi-03.jpg"); */
+    background-image: url("imgs/face2.jpg");
+    background-size: cover;
+    width: 175px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid #000;
+    /* display: inline-block;    */
+    /* margin: 20px;  */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px black;
+    /* background-size:contain; */
+    overflow: hidden;
+    background-repeat:no-repeat;
+    text-align: center;
+    /* animation: up-bump 0.4s ease; */
+    float: left;
+
+
+
+}
+.books:hover,.albums:hover,#vss_img:hover{
+    transform: scale(1.1);
+} 
+
+.albums{
+    height: 150px;
+    width:  150px;
+    padding-top: 5px;
+}
+#vss_img{
+    background-image: url("vss_logo.png");
+    background-size: cover;
+    /* margin:auto; */
+    height: 80px;
+    width: 80px;
+}
+#background-img{
+    background-image: url('imgs/skate-pic.JPG') ;
+    height: 90% !important;
+    /* background-repeat: no-repeat; */
+    /* background-position: center;  */
+    background-position: right top;
+    background-attachment: fixed;
+    /* background-position: 50% 50%;  */
+
+}
+.height{
+    height: 56px;
+}
+.container-fluid{
+    padding-right:0;
+    padding-left:0;
+
+}
